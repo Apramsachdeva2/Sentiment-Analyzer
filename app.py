@@ -14,10 +14,10 @@ def get_topic():
     if request.method=='POST':
         topic=request.form['topic']
         #credentials that let us authenticate with the Twitter Streaming API.
-        consumer_key='XsmuI2ZskCtmxJGizODE1EPTB'
-        consumer_secret='AseVbQUqdysjRoS0P1F2wWxvp0lKneXegIC1VOr9KdBRlzUnmR'
-        access_token='1098566296399011842-TiNf8FdfnvEV7hSXQH8r6dO7p5D4LL'
-        access_token_secret='8rkxgiEimDDEzEj3NjpaV5Abu8AvKoWzpMoMGtLRGSbO3'
+        consumer_key='xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+        consumer_secret='xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+        access_token='xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+        access_token_secret='xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
         
         #authenticating with twitter that is logging in with code
         
